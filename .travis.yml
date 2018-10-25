@@ -4,4 +4,4 @@ services:
 install:
   - docker build -t mapic/sftp .
 script:
-  - docker run -p 22:22 -d mapic/sftp foo:pass:::upload
+  - docker run -p 2222:2222 -d mapic/sftp foo:pass:::upload
